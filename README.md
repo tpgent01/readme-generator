@@ -31,7 +31,7 @@ If your README is very long, add a table of contents to make it easy for users t
 The user should clone the repository from GitHub and open up the project in the browser from the index file.
 
 
-## 💡 Usage 
+## 🎨 Usage 
 
 Provide instructions and examples for use. Include screenshots as needed.
 
