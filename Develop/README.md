@@ -1,9 +1,9 @@
-# Test Project
+# Project Test
 ![GitHub license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
 ## 🌐 Github URL
 [tpgent01](https://github.com/tpgent01/)
 ## 💬 Description 
-undefined
+insert here
 ## 📓 Table of Contents 
 * [Installations](#dependencies)
 * [Usage](#usage)
@@ -20,7 +20,7 @@ To install dependencies, run these commands:
 npm i
 ```
 ## 🎨 Usage
-undefined
+
 ## 📛 License
       Copyright © MIT. All rights reserved. 
       
