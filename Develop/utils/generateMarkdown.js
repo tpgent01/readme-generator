@@ -13,6 +13,7 @@ ${renderLink(data.license)}
 * [Contributors](#contributors)
 * [Test](#test)
 ## 🔌 Installations (Dependencies)
+The user should clone the repository from GitHub and open up the project in Visual Studio Code.
 To install dependencies, run these commands:
 \`\`\`
 ${data.dependencies}

@@ -58,16 +58,10 @@ const questions = [
         when: ({ confirmDescription }) => confirmDescription
     },
     {
-        type: 'confirm',
-        name: 'confirmInstall',
-        message: 'Would you like to provide installation instructions?',
-        default: true
-    },
-    {
         type: 'input',
-        name: 'installtion',
-        message: 'Provide installation instructions:',
-        when: ({ confirmInstall }) => confirmInstall
+        name: 'dependencies',
+        message: 'Any dependencies to install?',
+        default: 'npm i'
     },
     {
         type: 'confirm',
@@ -100,16 +94,10 @@ const questions = [
         when: ({ confirmContribution }) => confirmContribution
     },
     {
-        input: 'confirm',
-        name: 'confirmTest',
-        message: 'Would you like to provide test instructions?',
-        default: true
-    },
-    {
-        type: 'input',
+        input: 'input',
         name: 'test',
-        message: 'Provide test instructions:',
-        when: ({ confirmTest }) => confirmTest
+        message: 'What command should be entered in order to test this project?',
+        default: 'node index'
     }
 ];
 
@@ -124,9 +112,10 @@ function init() {
     inquirer.prompt(questions)
     .then((inquirerAnswers) => {
         console.log("generating...please wait...");
-        writeToFile("README.md", generateMarkdown({ ...inquirerAnswers }));
+        writeToFile("./develop/README.md", generateMarkdown({ ...inquirerAnswers }));
     })
 }
 
 // Function call to initialize app
 init();
+                 
