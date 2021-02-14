@@ -24,7 +24,6 @@ ${data.usage}
 ${renderSection(data.license)}
 ## ✏️ Contributors
 ${data.contribution}
-Contact me at ${data.email}
 ## 📊 Tests
 Run these commands to test:
 \`\`\`
