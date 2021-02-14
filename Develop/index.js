@@ -86,7 +86,7 @@ const questions = projectData => {
             type: 'checkbox',
             name: 'license',
             message: 'Please choose a license for your project:',
-            choices: ['MIT', 'BSD', 'GPL']
+            choices: ['MIT', 'BSD', 'GPL', 'None']
         },
         {
             type: 'confirm',
@@ -117,7 +117,7 @@ const questions = projectData => {
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFile(path.join(process.cwd(), fileName), data);
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
 // TODO: Create a function to initialize app
