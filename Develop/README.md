@@ -1,9 +1,9 @@
-# test
-![GitHub license](https://img.shields.io/badge/license-GPL-yellowgreen.svg)
+# Test Project
+![GitHub license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
 ## 🌐 Github URL
-[testest](https://github.com/testest/)
+[tpgent01](https://github.com/tpgent01/)
 ## 💬 Description 
-description is here it is here
+undefined
 ## 📓 Table of Contents 
 * [Installations](#dependencies)
 * [Usage](#usage)
@@ -17,22 +17,21 @@ description is here it is here
 The user should clone the repository from GitHub and open up the project in Visual Studio Code.
 To install dependencies, run these commands:
 ```
-npm i inquirer
+npm i
 ```
 ## 🎨 Usage
-insert that here please thank you
+undefined
 ## 📛 License
-      Copyright © GPL. All rights reserved. 
+      Copyright © MIT. All rights reserved. 
       
-      Licensed under the GPL license.
+      Licensed under the MIT license.
 ## ✏️ Contributors
-insert that here too please
-Contact me at email test
+undefined
 ## 📊 Tests
 Run these commands to test:
 ```
-node index.js
+node index
 ```
 ## ❓ Questions
-If you have any questions about this projects, please contact me directly at email test. 
-You can view more of my projects at testest.
+If you have any questions about this projects, please contact me directly at tpgent01@outlook.com. 
+You can view more of my projects at tpgent01.
