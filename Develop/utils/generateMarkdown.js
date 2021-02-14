@@ -12,6 +12,7 @@ ${data.description}
 ${renderLink(data.license)}
 * [Contributors](#contributors)
 * [Test](#test)
+* [Questions](#questions)
 ## 🔌 Installations (Dependencies)
 The user should clone the repository from GitHub and open up the project in Visual Studio Code.
 To install dependencies, run these commands:
@@ -25,10 +26,13 @@ ${renderSection(data.license)}
 ${data.contribution}
 Contact me at ${data.email}
 ## 📊 Tests
-To run tests, run these commands:
+Run these commands to test:
 \`\`\`
 ${data.test}
 \`\`\`
+## ❓ Questions
+If you have any questions about this projects, please contact me directly at ${data.email}. 
+You can view more of my projects at ${data.github}.
 `;
 }
 
