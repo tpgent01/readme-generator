@@ -90,7 +90,7 @@ const questions = [
     {
         type: 'input',
         name: 'contribution',
-        message: 'Provide contribution guidlines:',
+        message: 'Provide contribution guidelines:',
         when: ({ confirmContribution }) => confirmContribution
     },
     {
@@ -112,7 +112,7 @@ function init() {
     inquirer.prompt(questions)
     .then((inquirerAnswers) => {
         console.log("generating...please wait...");
-        writeToFile("./develop/README.md", generateMarkdown({ ...inquirerAnswers }));
+        writeToFile("./README.md", generateMarkdown({ ...inquirerAnswers }));
     })
 }
 

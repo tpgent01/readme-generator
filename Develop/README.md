@@ -1,9 +1,9 @@
-# README Generator
-![GitHub license](https://img.shields.io/badge/license--yellowgreen.svg)
+# dd
+![GitHub license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
 ## 🌐 Github URL
-[tpgent01](https://github.com/tpgent01/)
+[dd](https://github.com/dd/)
 ## 💬 Description 
-This is a README generator
+dd
 ## 📓 Table of Contents 
 * [Installations](#dependencies)
 * [Usage](#usage)
@@ -13,21 +13,22 @@ This is a README generator
 * [Contributors](#contributors)
 * [Test](#test)
 ## 🔌 Installations (Dependencies)
+The user should clone the repository from GitHub and open up the project in Visual Studio Code.
 To install dependencies, run these commands:
 ```
-undefined
+npm i inquirer
 ```
 ## 🎨 Usage
-insert usage here
+insert here
 ## 📛 License
-      Copyright © . All rights reserved. 
+      Copyright © MIT. All rights reserved. 
       
-      Licensed under the  license.
+      Licensed under the MIT license.
 ## ✏️ Contributors
-insert contribute here
-Contact me at tpgent01@outlook.com
+insert here
+Contact me at dd
 ## 📊 Tests
 To run tests, run these commands:
 ```
-test here
+node index
 ```
