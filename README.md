@@ -33,7 +33,7 @@ The user should clone the repository from GitHub and open up the project in thei
 
 
 ## 🎨Usage 
-[Click me for walk through❗️](https://drive.google.com/file/d/1KxJ7boEALtbtebXJEEEIg_Rw4Q7qZE_m/view)
+[Click me for walkthrough❗️](https://drive.google.com/file/d/1KxJ7boEALtbtebXJEEEIg_Rw4Q7qZE_m/view)
 * This tool allows users to create a README.md file
 * Users are prompted to enter the following:
   - Project Title
