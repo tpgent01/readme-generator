@@ -1,25 +1,25 @@
 # README Generator
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## 💬 Description 
+## 💬Description 
 
 A Node.js based tool where users can generate a README.md file for their repository projects directly in their code editor through prompts in the terminal.
 
 
-## 📓 Table of Contents
+## 📓Table of Contents
 
-* [User Story] (#user)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Built With](#built)
-* [License](#license)
-* [Badges](#badges)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+* [User Story](#User)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Built With](#Built)
+* [License](#License)
+* [Badges](#Badges)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
 
 
-## 🧠 User Story
+## 🧠User Story
 ```
 - AS A developer
 - I WANT a README generator
@@ -27,12 +27,12 @@ A Node.js based tool where users can generate a README.md file for their reposit
 ```
 
 
-## 🔌 Installation
+## 🔌Installation
 
 The user should clone the repository from GitHub and open up the project in their code editor.
 
 
-## 🎨 Usage 
+## 🎨Usage 
 
 * This tool allows users to create a README.md file
 * Users are prompted to enter the following:
@@ -56,38 +56,38 @@ The user should clone the repository from GitHub and open up the project in thei
 ### Walk Through
 
 
-## ✏️ Built With
+## ✏️Built With
 
 <p><a href="https://nodejs.org/">Node.js</a></p>
 <p><a href="https://www.npmjs.com/">NPM</a></p>
 <p><a href="https://www.npmjs.com/package/inquirer">Inquirer.js</a></p>
 
 
-## 🔐 License
+## 🔐License
 ```
 Copyright © MIT. All rights reserved. 
 Licensed under the MIT license.
 ```
 
 
-## 🏆 Badges
+## 🏆Badges
 
 ![GitHub top language](https://img.shields.io/github/languages/top/tpgent01/readme-generator)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/tpgent01/readme-generator)
+<br>![GitHub closed issues](https://img.shields.io/github/issues-closed/tpgent01/readme-generator)</br>
 ![npm bundle size](https://img.shields.io/bundlephobia/min/inquirer)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/tpgent01/readme-generator)
+<br>![GitHub commit activity](https://img.shields.io/github/commit-activity/y/tpgent01/readme-generator)</br>
 
 
-## 📌 Contributing
+## 📌Contributing
 
 Taylor Gentry ©2020 All Rights Reserved.
 
 
-## 📊 Tests
+## 📊Tests
 
 To test this project, please see the [Installation](#installation) section. Then run command _node index.js_.
 
 
-## ❓ Questions
+## ❓Questions
 If you have any questions about this projects, please contact me directly at tpgent01@outlook.com. 
 You can view more of my projects at https://github.com/tpgent01 👾
