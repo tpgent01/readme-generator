@@ -1,9 +1,9 @@
-# Project Test
-![GitHub license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
+# Readme Generator
+![GitHub license](https://img.shields.io/badge/license-GPL-yellowgreen.svg)
 ## 🌐 Github URL
 [tpgent01](https://github.com/tpgent01/)
 ## 💬 Description 
-insert here
+Insert description here
 ## 📓 Table of Contents 
 * [Installations](#dependencies)
 * [Usage](#usage)
@@ -17,16 +17,16 @@ insert here
 The user should clone the repository from GitHub and open up the project in Visual Studio Code.
 To install dependencies, run these commands:
 ```
-npm i
+npm i inquirer
 ```
 ## 🎨 Usage
-
+Insert usage info here
 ## 📛 License
-      Copyright © MIT. All rights reserved. 
+      Copyright © GPL. All rights reserved. 
       
-      Licensed under the MIT license.
+      Licensed under the GPL license.
 ## ✏️ Contributors
-undefined
+insert contribution info here
 ## 📊 Tests
 Run these commands to test:
 ```
