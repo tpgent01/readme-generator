@@ -2,28 +2,28 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderBadge(data.license)}
-## Github URL 🌐
+## 🌐 Github URL
 [${data.github}](https://github.com/${data.github}/)
-## Description 📝
+## 💬 Description 
 ${data.description}
-## Table of Contents 🗒
+## 📓 Table of Contents 
 * [Installations](#dependencies)
 * [Usage](#usage)
 ${renderLink(data.license)}
 * [Contributors](#contributors)
 * [Test](#test)
-## Installations (Dependencies) 💻
+## 🔌 Installations (Dependencies)
 To install dependencies, run these commands:
 \`\`\`
 ${data.dependencies}
 \`\`\`
-## Usage 🏆
+## 🎨 Usage
 ${data.usage}
 ${renderSection(data.license)}
-## Contributors 😃
+## ✏️ Contributors
 ${data.contribution}
 Contact me at ${data.email}
-## Tests 🧪
+## 📊 Tests
 To run tests, run these commands:
 \`\`\`
 ${data.test}
@@ -54,7 +54,7 @@ function renderLink(license) {
 function renderSection(license) {
   if (license !== "None") {
     return (
-      `## License 📛
+      `## 📛 License
       Copyright © ${license}. All rights reserved. 
       
       Licensed under the ${license} license.`
